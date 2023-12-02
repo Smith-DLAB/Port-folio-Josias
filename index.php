@@ -14,8 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- LINK FOR TO CHOOSE AN ICONS -->
+
     <!-- Option 1: Include in HTML -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
@@ -23,13 +26,14 @@
     <!-- HEADER STARTED -->
 
     <header>
-        <a href="#" class="logo"> Electronic <span>G. <i class="ri-youtube-fill"> </i> </span> </a>
+        <a href="#" class="logo"> Electronic <span>G. </span> </a>
 
         <div class="bx bx-menu" id="menu-icon"></div>
 
         <ul class="navlist">
             <li> <a href="#home">Home</a> </li>
             <li> <a href="#about">About</a> </li>
+            <li> <a href="#skills">Skills</a> </li>
             <li> <a href="#services">Services</a> </li>
             <li> <a href="#portfolio">Port-folio</a> </li>
             <li> <a href="#contact">Contact</a> </li>
@@ -96,6 +100,212 @@
                 </p>
             </div>
             <a href="#portfolio" class="btn"> View all Projects </a>
+        </div>
+    </section>
+
+    <!-- SECTION PROGRESS SKILLS -->
+
+    <section class="skills" id="skills">
+
+        <div class="center-text">
+            <h2> My <span>skills</span> </h2>
+        </div>
+
+        <div class="skills-content">
+
+            <div class="one-skill">
+                <div class="title">
+                    <span> Arduino </span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number">65%</div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3/org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <!-- <stop offset="0%" stop-color="#e91e63"></stop> -->
+                                <!-- <stop offset="100%" stop-color="#673ab7"></stop> -->
+                                <stop offset="0%" stop-color="#e91e63"></stop>
+                                <stop offset="100%" stop-color="#673ab7"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="two-skill">
+                <div class="title">
+                    <span> Matlab </span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number">65%</div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3/org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <!-- <stop offset="0%" stop-color="#e91e63"></stop> -->
+                                <!-- <stop offset="100%" stop-color="#673ab7"></stop> -->
+                                <stop offset="0%" stop-color="#e91e63"></stop>
+                                <stop offset="100%" stop-color="#673ab7"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="three-skill">
+                <div class="title">
+                    <span> Latex </span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number">65%</div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3/org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <!-- <stop offset="0%" stop-color="#e91e63"></stop> -->
+                                <!-- <stop offset="100%" stop-color="#673ab7"></stop> -->
+                                <stop offset="0%" stop-color="#e91e63"></stop>
+                                <stop offset="100%" stop-color="#673ab7"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="four-skill">
+                <div class="title">
+                    <span> GX Works </span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number">65%</div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3/org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <!-- <stop offset="0%" stop-color="#e91e63"></stop> -->
+                                <!-- <stop offset="100%" stop-color="#673ab7"></stop> -->
+                                <stop offset="0%" stop-color="#e91e63"></stop>
+                                <stop offset="100%" stop-color="#673ab7"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="five-skill">
+                <div class="title">
+                    <span> Draw.io </span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number">65%</div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3/org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <!-- <stop offset="0%" stop-color="#e91e63"></stop> -->
+                                <!-- <stop offset="100%" stop-color="#673ab7"></stop> -->
+                                <stop offset="0%" stop-color="#e91e63"></stop>
+                                <stop offset="100%" stop-color="#673ab7"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="six-skill">
+                <div class="title">
+                    <span> Labview </span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number">65%</div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3/org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <!-- <stop offset="0%" stop-color="#e91e63"></stop> -->
+                                <!-- <stop offset="100%" stop-color="#673ab7"></stop> -->
+                                <stop offset="0%" stop-color="#e91e63"></stop>
+                                <stop offset="100%" stop-color="#673ab7"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="seven-skill">
+                <div class="title">
+                    <span> ProfiCAD </span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number">65%</div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3/org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <!-- <stop offset="0%" stop-color="#e91e63"></stop> -->
+                                <!-- <stop offset="100%" stop-color="#673ab7"></stop> -->
+                                <stop offset="0%" stop-color="#e91e63"></stop>
+                                <stop offset="100%" stop-color="#673ab7"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="eight-skill">
+                <div class="title">
+                    <span> mblock </span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number">65%</div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3/org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <!-- <stop offset="0%" stop-color="#e91e63"></stop> -->
+                                <!-- <stop offset="100%" stop-color="#673ab7"></stop> -->
+                                <stop offset="0%" stop-color="#e91e63"></stop>
+                                <stop offset="100%" stop-color="#673ab7"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            
         </div>
     </section>
 
@@ -279,11 +489,12 @@
             <h2> Contact <span>Me</span> </h2>
         </div>
         <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Your name" required>
-                <input type="email" placeholder="Email Adress.." required>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message here ...." required></textarea>
-                <input class="send-btn" type="submit" name="" value="Send Message">
+            <form action="./treatment.php" method="POST">
+                <input type="text" name="name_user" placeholder="Your name" required>
+                <input type="email" name="email_user" placeholder="Email Adress.." required>
+                <input type="text" name="subject_user" placeholder="Subject" required>
+                <textarea name="message_user" id="" cols="30" rows="10" placeholder="Write Message here ...." required></textarea>
+                <input class="send-btn" type="submit" name="submit_form" value="Send Message">
             </form>
         </div>
     </section>
